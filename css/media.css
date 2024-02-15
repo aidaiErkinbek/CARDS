@@ -1,6 +1,6 @@
 @media screen and (max-width: 1300px) {
 	.container{
-		max-width: 960px;
+		max-width: 1200px;
 	}
 }
 @media screen and (max-width: 990px) {
@@ -22,4 +22,38 @@
 	.container{
 		max-width: 100%;
 	}
+}
+
+
+
+
+.cards{
+	width: calc((100% - 80) / 3);
+	justify-content: space-between;
+}
+
+.sec_tit{
+	font-size: 50px;
+	max-width: 350px;
+	background: rgb(190, 169, 208);
+	margin-bottom: 100px;
+}
+
+.card_in{
+	display: flex;
+}
+
+.card_tit{
+font-size: 50px;
+}
+
+.card_desc{
+	
+	background: rgb(43, 226, 174);
+	height: 500px;
+}
+
+.card_txt{
+	max-width: 195px;
+	background: #894bd5;
 }
